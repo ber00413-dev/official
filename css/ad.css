@@ -1,0 +1,59 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.frame {
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+	background: url(../images/socks.jpg) no-repeat;
+	background-size: 100%;
+	background-position-y: -100px;
+	position: relative;
+}
+
+.title {
+	color: yellow;
+	position: absolute;
+	font-size: 100px;
+	bottom: 50px;
+	top:10px;
+}
+
+
+
+.purchase-button {
+    background-color: #FF69B4;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+   margin-right:12px;
+   position: absolute;
+}
+
+.purchase-button:hover {
+    background-color: #8A2BE2;
+    transform: scale(1.1);
+
+
+}
+
+
+
+.slogan {
+    font-size: 40px;
+    color: #FF1493;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Comic Sans MS", cursive;
+}
